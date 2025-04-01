@@ -28,6 +28,10 @@ This project uses Selenium WebDriver with Java and Maven to automate filling out
     
 5. Customize the code as needed for your automation tasks.
 
+## Practice Site Used
+
+- [Techlistic Selenium Practice Form](https://www.techlistic.com/p/selenium-practice-form.html)
+
 ## Technologies Used
 
 - Java
