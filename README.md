@@ -4,29 +4,29 @@ This project uses Selenium WebDriver with Java and Maven to automate filling out
 
 ## Features
 
-- Opens a demo form page using Selenium WebDriver
-- Fills out:
-   - Text input fields (First Name, Last Name)
-   - Radio buttons (Gender, Experience)
-   - Date picker
-   - Checkboxes (Profession, Tools)
-   - Dropdown selection (Continent)
+- Opens the form page in a Chrome browser
+- Fills in:
+  - First and last name text fields
+  - Gender and experience radio buttons
+  - A date into a date picker field
+  - Profession and tool checkboxes
+  - Continent selection from a dropdown
+  - Multiple selections from a commands dropdown
+- Submits the form and logs success to the console
+- Uses element validation (checks if elements exist before interacting)
 - Submits the form
-- Verifies successful submission (confirmation or change in page state)
+- Verifies successful submission (confirmation via terminal)
+- Quits the browser at the end
 
 ## Quick Start
 
 1. Clone the repo:
    ```bash
    git clone https://github.com/joshrod94/selenium-java-starter.git
-
 2. Open in IntelliJ (or your IDE of choice).
-
-3. Run the TestClass class to see a Chrome browser open Google.
-
-4. The browser will quickly close and in your terminal, you will see the result of the test.
-    
-5. Customize the code as needed for your automation tasks.
+3. Navigate to `FormAutomationDemo.java` in `src/main/java`
+4. Run the `main()` method
+5. Confirm that the form was filled out and submitted successfully by checking the terminal output or commenting out `driver.quit()` to see the browser window.
 
 ## Practice Site Used
 
