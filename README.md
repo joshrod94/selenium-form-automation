@@ -1,14 +1,18 @@
-# Selenium Java Starter
+# Selenium Form Automation
 
-This repository serves as a **skeleton** project for Java + Maven + Selenium.
-Clone or download this project whenever you want to start automating with Selenium.
+This project uses Selenium WebDriver with Java and Maven to automate filling out a web-based job application form. It is based on the selenium-java-starter template and is designed to simulate real-world user input across various form elements.
 
 ## Features
 
-- **Maven** for dependency management
-- **Selenium Java** for browser automation
-- Minimal main class test example: `testclass.java`
-- `.gitignore` for typical Java and IntelliJ files
+- Opens a demo form page using Selenium WebDriver
+- Fills out:
+   - Text input fields (First Name, Last Name)
+   - Radio buttons (Gender, Experience)
+   - Date picker
+   - Checkboxes (Profession, Tools)
+   - Dropdown selection (Continent)
+- Submits the form
+- Verifies successful submission (confirmation or change in page state)
 
 ## Quick Start
 
@@ -24,11 +28,19 @@ Clone or download this project whenever you want to start automating with Seleni
     
 5. Customize the code as needed for your automation tasks.
 
+## Technologies Used
+
+- Java
+- Selenium WebDriver
+- Maven
+- IntelliJ IDEA
+
 ## Requirements
 
     Java 23 (or higher)
     Maven 3.9.9+ ( you can check the latest version at https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java )
-    (Optional) IntelliJ IDEA (this was created with Ultimate version 2024.2.3 )
+    (Optional) IntelliJ IDEA (this was created with Ultimate version 2024.2.3 ) 
+    Selenium 4.30.0
 
 ## License
 
